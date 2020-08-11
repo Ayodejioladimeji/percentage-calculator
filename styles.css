@@ -1,0 +1,2735 @@
+*{
+    box-sizing:border-box;
+    margin:0;
+    padding:0;
+}
+
+section{
+    background:#5E2CF5;
+    height:600px;
+    width:30%;
+    position:absolute;
+    top:50%;
+    left:50%;
+    transform:translate(-50%,-50%);
+}
+
+/* ================================ */
+/* THE SECTION OF THE NAV*/
+nav{
+    background:white;
+    padding:15px;
+    font-size:20px;
+    text-align:center;
+    font-family:monospace;
+    color:#A02373;
+    width:90%;
+    margin:auto;
+    margin-top:10px;
+    height:60px;
+    border-radius:10px;
+
+}
+nav h2{
+    font-size:26px;
+    text-align:center;
+    text-shadow:1px 1px red;
+}
+
+/* ================================== */
+/* THE SECTION OF THE ASIDE */
+aside{
+    background:white;
+    width:90%;
+    margin:auto;
+    height:90px;
+    margin-top:10px;
+    border-radius:10px;
+}
+
+/* ==================================== */
+/* THE SECTION OF THE DATE */
+.date{
+    float:left;
+    width:100%;
+    height:100px;
+    color:#5E2CF5;
+    text-align:center;
+    padding:20px;
+    font-size:25px;
+    font-weight:bolder;
+    font-family:amita;
+}
+
+
+
+/* =================================== */
+/* THE SECTION OF THE AMOUNT */
+.price{
+    background:white;
+    height:100px;
+    width:90%;
+    margin:auto;
+    margin-top:10px;
+    padding:10px;
+    border-radius:10px;
+}
+
+
+.price h3{
+    color:#A02373;
+    margin-bottom:10px;
+    font-family:monospace;
+    font-size:20px;
+
+}
+
+
+.price input{
+    padding:10px;
+    border-radius:5px;
+    color:#A02373;
+    width:100%;
+    border:1px solid #A02373;
+}
+
+::-webkit-input-placeholder{
+    color:#A02373;
+    font-family:amita;
+}
+
+/* ================================= */
+/* THE SECTION OF THE MAIN */
+main{
+    background:white;
+    width:90%;
+    margin:auto;
+    height:100px;
+    margin-top:10px;
+    padding:10px;
+    border-radius:10px;
+
+}
+
+main span{
+    color:blue;
+    float:left;
+    font-family:cursive;
+    font-weight:bold;
+    font-size:16px;
+}
+
+main small{
+    float:right;
+    color:blue;
+    font-family:cursive;
+    font-size:18px;
+    margin-right:10px;
+    font-weight:bold;
+}
+
+.range{
+    width:100%;
+    margin-top:20px;
+    -webkit-appearance: none;
+    outline:none;
+    background:#a0237326;
+    border-radius:25px;
+    height:10px;
+}
+
+.range::-webkit-slider-thumb{
+    -webkit-appearance: none;
+    width:20px;
+    height:20px;
+    border-radius:50%;
+    background:#A02373;
+    cursor:pointer;
+    border:2px solid #5E2CF5;
+}
+
+
+/* ================================= */
+/* THE SECTION OF THE RESULT */
+.result{
+    background:white;
+    width:90%;
+    margin:auto;
+    height:120px;
+    margin-top:10px;
+}
+
+.result span{
+    color:#A02373;
+    font-family:monospace;
+    font-size:18px;
+    font-weight:bold;
+    text-transform:uppercase;
+    margin-top:15px;
+    margin-left:10px;
+}
+
+.output{
+    background:#a0237357;
+    height:80px;
+    width:95%;
+    margin:auto;
+    border-radius:10px;
+    margin-top:10px;
+}
+
+.output h2{
+    color:#5E2CF5;
+    font-family:monospace;
+    font-weight:bold;
+    padding:20px;
+    font-size:35px;
+}
+
+/* ================ */
+.dev{
+    height:60px;
+    width:90%;
+    margin:auto;
+    border-radius:10px;
+    margin-top:10px;
+    background:white;
+}
+.dev h3{
+    text-align:center;
+    color:#A02373;
+    font-family:cursive;
+    padding:5px 5px 0 5px;
+}
+.dev marquee{
+    color:#A02373;
+    text-align:center;
+    font-family:allura;
+    font-weight:bold;
+    font-size:18px;
+}
+
+
+
+
+/* ==================================================== */
+/* ==================================================== */
+/* THE SECTION OF THE MEDIA QUERY */
+
+@media screen and (max-width:320px){
+
+    *{
+    box-sizing:border-box;
+    margin:0;
+    padding:0;
+}
+
+body{
+    background:#5E2CF5;
+}
+
+section{
+    background:#5E2CF5;
+    height:570px;
+    width:100%;
+    position:absolute;
+    top:50%;
+    left:50%;
+    transform:translate(-50%,-50%);
+}
+
+/* ================================ */
+/* THE SECTION OF THE NAV*/
+nav{
+    background:white;
+    padding:15px;
+    font-size:20px;
+    text-align:center;
+    font-family:monospace;
+    color:#A02373;
+    width:90%;
+    margin:auto;
+    margin-top:10px;
+    height:60px;
+    border-radius:10px;
+    border-bottom:2px solid red;
+
+}
+nav h2{
+    font-size:20px;
+    text-align:center;
+    text-shadow:1px 1px red;
+}
+
+/* ================================== */
+/* THE SECTION OF THE ASIDE */
+aside{
+    background:white;
+    width:90%;
+    margin:auto;
+    height:90px;
+    margin-top:0px;
+    border-radius:10px;
+}
+
+/* ==================================== */
+/* THE SECTION OF THE DATE */
+.date{
+    float:left;
+    width:100%;
+    height:100px;
+    color:#5E2CF5;
+    text-align:center;
+    padding:20px;
+    font-size:20px;
+    font-weight:bolder;
+    font-family:amita;
+}
+
+
+
+/* =================================== */
+/* THE SECTION OF THE AMOUNT */
+.price{
+    background:white;
+    height:100px;
+    width:90%;
+    margin:auto;
+    margin-top:10px;
+    padding:10px;
+    border-radius:10px;
+}
+
+
+.price h3{
+    color:#A02373;
+    margin-bottom:10px;
+    font-family:monospace;
+    font-size:20px;
+
+}
+
+
+.price input{
+    padding:10px;
+    border-radius:5px;
+    color:#A02373;
+    width:100%;
+    border:1px solid #A02373;
+}
+
+::-webkit-input-placeholder{
+    color:#A02373;
+    font-family:amita;
+}
+
+/* ================================= */
+/* THE SECTION OF THE MAIN */
+main{
+    background:white;
+    width:90%;
+    margin:auto;
+    height:100px;
+    margin-top:0px;
+    padding:10px;
+    border-radius:10px;
+
+}
+
+main span{
+    color:blue;
+    float:left;
+    font-family:cursive;
+    font-weight:bold;
+    font-size:16px;
+}
+
+main small{
+    float:right;
+    color:blue;
+    font-family:cursive;
+    font-size:18px;
+    margin-right:10px;
+    font-weight:bold;
+}
+
+.range{
+    width:100%;
+    margin-top:20px;
+    -webkit-appearance: none;
+    outline:none;
+    background:#a0237326;
+    border-radius:25px;
+    height:10px;
+}
+
+.range::-webkit-slider-thumb{
+    -webkit-appearance: none;
+    width:20px;
+    height:20px;
+    border-radius:50%;
+    background:#A02373;
+    cursor:pointer;
+    border:2px solid #5E2CF5;
+}
+
+
+/* ================================= */
+/* THE SECTION OF THE RESULT */
+.result{
+    background:white;
+    width:90%;
+    margin:auto;
+    height:120px;
+    margin-top:10px;
+    border-radius:10px
+}
+
+.result span{
+    color:#A02373;
+    font-family:monospace;
+    font-size:18px;
+    font-weight:bold;
+    text-transform:uppercase;
+    margin-top:15px;
+    margin-left:10px;
+}
+
+.output{
+    background:#a0237357;
+    height:80px;
+    width:95%;
+    margin:auto;
+    border-radius:10px;
+    margin-top:10px;
+}
+
+.output h2{
+    color:#5E2CF5;
+    font-family:monospace;
+    font-weight:bold;
+    padding:20px;
+    font-size:35px;
+}
+
+/* ================ */
+.dev{
+    height:60px;
+    width:90%;
+    margin:auto;
+    border-radius:10px;
+    margin-top:0px;
+    background:white;
+}
+.dev h3{
+    text-align:center;
+    color:#A02373;
+    font-family:cursive;
+    padding:5px 5px 0 5px;
+}
+.dev p{
+    color:#A02373;
+    text-align:center;
+    font-family:amita;
+    font-weight:bold;
+    font-size:15px;
+}
+
+}
+
+
+
+
+/* ==================================================== */
+/* ==================================================== */
+/* THE SECTION OF THE MEDIA QUERY */
+
+@media screen and (max-width:375px) and (min-width:321px){
+
+    *{
+    box-sizing:border-box;
+    margin:0;
+    padding:0;
+}
+
+body{
+    background:#5E2CF5;
+}
+
+section{
+    background:#5E2CF5;
+    height:670px;
+    width:100%;
+    position:absolute;
+    top:50%;
+    left:50%;
+    transform:translate(-50%,-50%);
+}
+
+/* ================================ */
+/* THE SECTION OF THE NAV*/
+nav{
+    background:white;
+    padding:20px;
+    font-size:20px;
+    text-align:center;
+    font-family:monospace;
+    color:#A02373;
+    width:90%;
+    margin:auto;
+    margin-top:20px;
+    height:70px;
+    border-radius:10px;
+    border-bottom:2px solid red;
+
+}
+nav h2{
+    font-size:22px;
+    text-align:center;
+    text-shadow:1px 1px red;
+}
+
+/* ================================== */
+/* THE SECTION OF THE ASIDE */
+aside{
+    background:white;
+    width:90%;
+    margin:auto;
+    height:90px;
+    margin-top:0px;
+    border-radius:10px;
+}
+
+/* ==================================== */
+/* THE SECTION OF THE DATE */
+.date{
+    float:left;
+    width:100%;
+    height:100px;
+    color:#5E2CF5;
+    text-align:center;
+    padding:21px;
+    font-size:21px;
+    font-weight:bolder;
+    font-family:amita;
+}
+
+
+
+/* =================================== */
+/* THE SECTION OF THE AMOUNT */
+.price{
+    background:white;
+    height:130px;
+    width:90%;
+    margin:auto;
+    margin-top:10px;
+    padding:10px;
+    border-radius:10px;
+}
+
+
+.price h3{
+    color:#A02373;
+    margin-bottom:20px;
+    font-family:monospace;
+    font-size:20px
+
+}
+
+
+.price input{
+    padding:12px;
+    border-radius:5px;
+    color:#A02373;
+    width:100%;
+    border:1px solid #A02373;
+}
+
+::-webkit-input-placeholder{
+    color:#A02373;
+    font-family:amita;
+}
+
+/* ================================= */
+/* THE SECTION OF THE MAIN */
+main{
+    background:white;
+    width:90%;
+    margin:auto;
+    height:120px;
+    margin-top:0px;
+    padding:10px;
+    border-radius:10px;
+
+}
+
+main span{
+    color:blue;
+    float:left;
+    font-family:cursive;
+    font-weight:bold;
+    font-size:16px;
+    margin-top:10px;
+}
+
+main small{
+    float:right;
+    color:blue;
+    font-family:cursive;
+    font-size:18px;
+    margin-right:10px;
+    font-weight:bold;
+}
+
+.range{
+    width:100%;
+    margin-top:30px;
+    -webkit-appearance: none;
+    outline:none;
+    background:#a0237326;
+    border-radius:25px;
+    height:10px;
+}
+
+.range::-webkit-slider-thumb{
+    -webkit-appearance: none;
+    width:20px;
+    height:20px;
+    border-radius:50%;
+    background:#A02373;
+    cursor:pointer;
+    border:2px solid #5E2CF5;
+}
+
+
+/* ================================= */
+/* THE SECTION OF THE RESULT */
+.result{
+    background:white;
+    width:90%;
+    margin:auto;
+    height:130px;
+    margin-top:10px;
+    border-radius:10px
+}
+
+.result span{
+    color:#A02373;
+    font-family:monospace;
+    font-size:18px;
+    font-weight:bold;
+    text-transform:uppercase;
+    margin-top:15px;
+    margin-left:10px;
+}
+
+.output{
+    background:#a0237357;
+    height:80px;
+    width:95%;
+    margin:auto;
+    border-radius:10px;
+    margin-top:10px;
+}
+
+.output h2{
+    color:#5E2CF5;
+    font-family:monospace;
+    font-weight:bold;
+    padding:20px;
+    font-size:35px;
+}
+
+/* ================ */
+.dev{
+    height:70px;
+    width:90%;
+    margin:auto;
+    border-radius:10px;
+    margin-top:0px;
+    background:white;
+}
+.dev h3{
+    text-align:center;
+    color:#A02373;
+    font-family:cursive;
+    padding:10px 5px 0 5px;
+}
+.dev p{
+    color:#A02373;
+    text-align:center;
+    font-family:amita;
+    font-weight:bold;
+    font-size:15px;
+    margin-top:5px;
+}
+
+}
+
+
+
+/* ==================================================== */
+/* ==================================================== */
+/* THE SECTION OF THE MEDIA QUERY */
+
+@media screen and (max-width:425px) and (min-width:376px){
+
+    *{
+    box-sizing:border-box;
+    margin:0;
+    padding:0;
+}
+
+body{
+    background:#5E2CF5;
+}
+
+section{
+    background:#5E2CF5;
+    height:670px;
+    width:100%;
+    position:absolute;
+    top:50%;
+    left:50%;
+    transform:translate(-50%,-50%);
+}
+
+/* ================================ */
+/* THE SECTION OF THE NAV*/
+nav{
+    background:white;
+    padding:20px;
+    font-size:20px;
+    text-align:center;
+    font-family:monospace;
+    color:#A02373;
+    width:90%;
+    margin:auto;
+    margin-top:20px;
+    height:70px;
+    border-radius:10px;
+    border-bottom:2px solid red;
+
+}
+nav h2{
+    font-size:22px;
+    text-align:center;
+    text-shadow:1px 1px red;
+}
+
+/* ================================== */
+/* THE SECTION OF THE ASIDE */
+aside{
+    background:white;
+    width:90%;
+    margin:auto;
+    height:90px;
+    margin-top:0px;
+    border-radius:10px;
+}
+
+/* ==================================== */
+/* THE SECTION OF THE DATE */
+.date{
+    float:left;
+    width:100%;
+    height:100px;
+    color:#5E2CF5;
+    text-align:center;
+    padding:21px;
+    font-size:21px;
+    font-weight:bolder;
+    font-family:amita;
+}
+
+
+
+/* =================================== */
+/* THE SECTION OF THE AMOUNT */
+.price{
+    background:white;
+    height:130px;
+    width:90%;
+    margin:auto;
+    margin-top:10px;
+    padding:10px;
+    border-radius:10px;
+}
+
+
+.price h3{
+    color:#A02373;
+    margin-bottom:20px;
+    font-family:monospace;
+    font-size:20px
+
+}
+
+
+.price input{
+    padding:12px;
+    border-radius:5px;
+    color:#A02373;
+    width:100%;
+    border:1px solid #A02373;
+}
+
+::-webkit-input-placeholder{
+    color:#A02373;
+    font-family:amita;
+}
+
+/* ================================= */
+/* THE SECTION OF THE MAIN */
+main{
+    background:white;
+    width:90%;
+    margin:auto;
+    height:120px;
+    margin-top:0px;
+    padding:10px;
+    border-radius:10px;
+
+}
+
+main span{
+    color:blue;
+    float:left;
+    font-family:cursive;
+    font-weight:bold;
+    font-size:16px;
+    margin-top:10px;
+}
+
+main small{
+    float:right;
+    color:blue;
+    font-family:cursive;
+    font-size:18px;
+    margin-right:10px;
+    font-weight:bold;
+}
+
+.range{
+    width:100%;
+    margin-top:30px;
+    -webkit-appearance: none;
+    outline:none;
+    background:#a0237326;
+    border-radius:25px;
+    height:10px;
+}
+
+.range::-webkit-slider-thumb{
+    -webkit-appearance: none;
+    width:20px;
+    height:20px;
+    border-radius:50%;
+    background:#A02373;
+    cursor:pointer;
+    border:2px solid #5E2CF5;
+}
+
+
+/* ================================= */
+/* THE SECTION OF THE RESULT */
+.result{
+    background:white;
+    width:90%;
+    margin:auto;
+    height:130px;
+    margin-top:10px;
+    border-radius:10px
+}
+
+.result span{
+    color:#A02373;
+    font-family:monospace;
+    font-size:18px;
+    font-weight:bold;
+    text-transform:uppercase;
+    margin-top:15px;
+    margin-left:10px;
+}
+
+.output{
+    background:#a0237357;
+    height:80px;
+    width:95%;
+    margin:auto;
+    border-radius:10px;
+    margin-top:10px;
+}
+
+.output h2{
+    color:#5E2CF5;
+    font-family:monospace;
+    font-weight:bold;
+    padding:20px;
+    font-size:35px;
+}
+
+/* ================ */
+.dev{
+    height:70px;
+    width:90%;
+    margin:auto;
+    border-radius:10px;
+    margin-top:0px;
+    background:white;
+}
+.dev h3{
+    text-align:center;
+    color:#A02373;
+    font-family:cursive;
+    padding:10px 5px 0 5px;
+}
+.dev p{
+    color:#A02373;
+    text-align:center;
+    font-family:amita;
+    font-weight:bold;
+    font-size:15px;
+    margin-top:5px;
+}
+
+}
+
+
+
+
+/* ==================================================== */
+/* ==================================================== */
+/* THE SECTION OF THE MEDIA QUERY */
+
+@media screen and (max-width:480px) and (min-width:426px){
+
+    *{
+    box-sizing:border-box;
+    margin:0;
+    padding:0;
+}
+
+body{
+    background:#5E2CF5;
+}
+
+section{
+    background:#5E2CF5;
+    height:670px;
+    width:100%;
+    position:absolute;
+    top:50%;
+    left:50%;
+    transform:translate(-50%,-50%);
+}
+
+/* ================================ */
+/* THE SECTION OF THE NAV*/
+nav{
+    background:white;
+    padding:20px;
+    font-size:20px;
+    text-align:center;
+    font-family:monospace;
+    color:#A02373;
+    width:90%;
+    margin:auto;
+    margin-top:20px;
+    height:70px;
+    border-radius:10px;
+    border-bottom:2px solid red;
+
+}
+nav h2{
+    font-size:22px;
+    text-align:center;
+    text-shadow:1px 1px red;
+}
+
+/* ================================== */
+/* THE SECTION OF THE ASIDE */
+aside{
+    background:white;
+    width:90%;
+    margin:auto;
+    height:90px;
+    margin-top:0px;
+    border-radius:10px;
+}
+
+/* ==================================== */
+/* THE SECTION OF THE DATE */
+.date{
+    float:left;
+    width:100%;
+    height:100px;
+    color:#5E2CF5;
+    text-align:center;
+    padding:21px;
+    font-size:21px;
+    font-weight:bolder;
+    font-family:amita;
+}
+
+
+
+/* =================================== */
+/* THE SECTION OF THE AMOUNT */
+.price{
+    background:white;
+    height:130px;
+    width:90%;
+    margin:auto;
+    margin-top:10px;
+    padding:10px;
+    border-radius:10px;
+}
+
+
+.price h3{
+    color:#A02373;
+    margin-bottom:20px;
+    font-family:monospace;
+    font-size:20px
+
+}
+
+
+.price input{
+    padding:12px;
+    border-radius:5px;
+    color:#A02373;
+    width:100%;
+    border:1px solid #A02373;
+}
+
+::-webkit-input-placeholder{
+    color:#A02373;
+    font-family:amita;
+}
+
+/* ================================= */
+/* THE SECTION OF THE MAIN */
+main{
+    background:white;
+    width:90%;
+    margin:auto;
+    height:120px;
+    margin-top:0px;
+    padding:10px;
+    border-radius:10px;
+
+}
+
+main span{
+    color:blue;
+    float:left;
+    font-family:cursive;
+    font-weight:bold;
+    font-size:16px;
+    margin-top:10px;
+}
+
+main small{
+    float:right;
+    color:blue;
+    font-family:cursive;
+    font-size:18px;
+    margin-right:10px;
+    font-weight:bold;
+}
+
+.range{
+    width:100%;
+    margin-top:30px;
+    -webkit-appearance: none;
+    outline:none;
+    background:#a0237326;
+    border-radius:25px;
+    height:10px;
+}
+
+.range::-webkit-slider-thumb{
+    -webkit-appearance: none;
+    width:20px;
+    height:20px;
+    border-radius:50%;
+    background:#A02373;
+    cursor:pointer;
+    border:2px solid #5E2CF5;
+}
+
+
+/* ================================= */
+/* THE SECTION OF THE RESULT */
+.result{
+    background:white;
+    width:90%;
+    margin:auto;
+    height:130px;
+    margin-top:10px;
+    border-radius:10px
+}
+
+.result span{
+    color:#A02373;
+    font-family:monospace;
+    font-size:18px;
+    font-weight:bold;
+    text-transform:uppercase;
+    margin-top:15px;
+    margin-left:10px;
+}
+
+.output{
+    background:#a0237357;
+    height:80px;
+    width:95%;
+    margin:auto;
+    border-radius:10px;
+    margin-top:10px;
+}
+
+.output h2{
+    color:#5E2CF5;
+    font-family:monospace;
+    font-weight:bold;
+    padding:20px;
+    font-size:35px;
+}
+
+/* ================ */
+.dev{
+    height:70px;
+    width:90%;
+    margin:auto;
+    border-radius:10px;
+    margin-top:0px;
+    background:white;
+}
+.dev h3{
+    text-align:center;
+    color:#A02373;
+    font-family:cursive;
+    padding:10px 5px 0 5px;
+}
+.dev p{
+    color:#A02373;
+    text-align:center;
+    font-family:amita;
+    font-weight:bold;
+    font-size:15px;
+    margin-top:5px;
+}
+
+}
+
+
+
+
+/* ==================================================== */
+/* ==================================================== */
+/* THE SECTION OF THE MEDIA QUERY */
+
+@media screen and (max-width:530px) and (min-width:481px){
+
+    *{
+    box-sizing:border-box;
+    margin:0;
+    padding:0;
+}
+
+body{
+    background:#5E2CF5;
+}
+
+section{
+    background:#5E2CF5;
+    height:670px;
+    width:100%;
+    position:absolute;
+    top:50%;
+    left:50%;
+    transform:translate(-50%,-50%);
+}
+
+/* ================================ */
+/* THE SECTION OF THE NAV*/
+nav{
+    background:white;
+    padding:20px;
+    font-size:20px;
+    text-align:center;
+    font-family:monospace;
+    color:#A02373;
+    width:90%;
+    margin:auto;
+    margin-top:20px;
+    height:70px;
+    border-radius:10px;
+    border-bottom:2px solid red;
+
+}
+nav h2{
+    font-size:22px;
+    text-align:center;
+    text-shadow:1px 1px red;
+}
+
+/* ================================== */
+/* THE SECTION OF THE ASIDE */
+aside{
+    background:white;
+    width:90%;
+    margin:auto;
+    height:90px;
+    margin-top:0px;
+    border-radius:10px;
+}
+
+/* ==================================== */
+/* THE SECTION OF THE DATE */
+.date{
+    float:left;
+    width:100%;
+    height:100px;
+    color:#5E2CF5;
+    text-align:center;
+    padding:21px;
+    font-size:21px;
+    font-weight:bolder;
+    font-family:amita;
+}
+
+
+
+/* =================================== */
+/* THE SECTION OF THE AMOUNT */
+.price{
+    background:white;
+    height:130px;
+    width:90%;
+    margin:auto;
+    margin-top:10px;
+    padding:10px;
+    border-radius:10px;
+}
+
+
+.price h3{
+    color:#A02373;
+    margin-bottom:20px;
+    font-family:monospace;
+    font-size:20px
+
+}
+
+
+.price input{
+    padding:12px;
+    border-radius:5px;
+    color:#A02373;
+    width:100%;
+    border:1px solid #A02373;
+}
+
+::-webkit-input-placeholder{
+    color:#A02373;
+    font-family:amita;
+}
+
+/* ================================= */
+/* THE SECTION OF THE MAIN */
+main{
+    background:white;
+    width:90%;
+    margin:auto;
+    height:120px;
+    margin-top:0px;
+    padding:10px;
+    border-radius:10px;
+
+}
+
+main span{
+    color:blue;
+    float:left;
+    font-family:cursive;
+    font-weight:bold;
+    font-size:16px;
+    margin-top:10px;
+}
+
+main small{
+    float:right;
+    color:blue;
+    font-family:cursive;
+    font-size:18px;
+    margin-right:10px;
+    font-weight:bold;
+}
+
+.range{
+    width:100%;
+    margin-top:30px;
+    -webkit-appearance: none;
+    outline:none;
+    background:#a0237326;
+    border-radius:25px;
+    height:10px;
+}
+
+.range::-webkit-slider-thumb{
+    -webkit-appearance: none;
+    width:20px;
+    height:20px;
+    border-radius:50%;
+    background:#A02373;
+    cursor:pointer;
+    border:2px solid #5E2CF5;
+}
+
+
+/* ================================= */
+/* THE SECTION OF THE RESULT */
+.result{
+    background:white;
+    width:90%;
+    margin:auto;
+    height:130px;
+    margin-top:10px;
+    border-radius:10px
+}
+
+.result span{
+    color:#A02373;
+    font-family:monospace;
+    font-size:18px;
+    font-weight:bold;
+    text-transform:uppercase;
+    margin-top:15px;
+    margin-left:10px;
+}
+
+.output{
+    background:#a0237357;
+    height:80px;
+    width:95%;
+    margin:auto;
+    border-radius:10px;
+    margin-top:10px;
+}
+
+.output h2{
+    color:#5E2CF5;
+    font-family:monospace;
+    font-weight:bold;
+    padding:20px;
+    font-size:35px;
+}
+
+/* ================ */
+.dev{
+    height:70px;
+    width:90%;
+    margin:auto;
+    border-radius:10px;
+    margin-top:0px;
+    background:white;
+}
+.dev h3{
+    text-align:center;
+    color:#A02373;
+    font-family:cursive;
+    padding:10px 5px 0 5px;
+}
+.dev p{
+    color:#A02373;
+    text-align:center;
+    font-family:amita;
+    font-weight:bold;
+    font-size:15px;
+    margin-top:5px;
+}
+
+}
+
+
+
+/* ==================================================== */
+/* ==================================================== */
+/* THE SECTION OF THE MEDIA QUERY */
+
+@media screen and (max-width:585px) and (min-width:481px){
+
+    *{
+    box-sizing:border-box;
+    margin:0;
+    padding:0;
+}
+
+body{
+    background:#5E2CF5;
+}
+
+section{
+    background:#5E2CF5;
+    height:670px;
+    width:100%;
+    position:absolute;
+    top:50%;
+    left:50%;
+    transform:translate(-50%,-50%);
+}
+
+/* ================================ */
+/* THE SECTION OF THE NAV*/
+nav{
+    background:white;
+    padding:20px;
+    font-size:20px;
+    text-align:center;
+    font-family:monospace;
+    color:#A02373;
+    width:90%;
+    margin:auto;
+    margin-top:20px;
+    height:70px;
+    border-radius:10px;
+    border-bottom:2px solid red;
+
+}
+nav h2{
+    font-size:22px;
+    text-align:center;
+    text-shadow:1px 1px red;
+}
+
+/* ================================== */
+/* THE SECTION OF THE ASIDE */
+aside{
+    background:white;
+    width:90%;
+    margin:auto;
+    height:90px;
+    margin-top:0px;
+    border-radius:10px;
+}
+
+/* ==================================== */
+/* THE SECTION OF THE DATE */
+.date{
+    float:left;
+    width:100%;
+    height:100px;
+    color:#5E2CF5;
+    text-align:center;
+    padding:21px;
+    font-size:21px;
+    font-weight:bolder;
+    font-family:amita;
+}
+
+
+
+/* =================================== */
+/* THE SECTION OF THE AMOUNT */
+.price{
+    background:white;
+    height:130px;
+    width:90%;
+    margin:auto;
+    margin-top:10px;
+    padding:10px;
+    border-radius:10px;
+}
+
+
+.price h3{
+    color:#A02373;
+    margin-bottom:20px;
+    font-family:monospace;
+    font-size:20px
+
+}
+
+
+.price input{
+    padding:12px;
+    border-radius:5px;
+    color:#A02373;
+    width:100%;
+    border:1px solid #A02373;
+}
+
+::-webkit-input-placeholder{
+    color:#A02373;
+    font-family:amita;
+}
+
+/* ================================= */
+/* THE SECTION OF THE MAIN */
+main{
+    background:white;
+    width:90%;
+    margin:auto;
+    height:120px;
+    margin-top:0px;
+    padding:10px;
+    border-radius:10px;
+
+}
+
+main span{
+    color:blue;
+    float:left;
+    font-family:cursive;
+    font-weight:bold;
+    font-size:16px;
+    margin-top:10px;
+}
+
+main small{
+    float:right;
+    color:blue;
+    font-family:cursive;
+    font-size:18px;
+    margin-right:10px;
+    font-weight:bold;
+}
+
+.range{
+    width:100%;
+    margin-top:30px;
+    -webkit-appearance: none;
+    outline:none;
+    background:#a0237326;
+    border-radius:25px;
+    height:10px;
+}
+
+.range::-webkit-slider-thumb{
+    -webkit-appearance: none;
+    width:20px;
+    height:20px;
+    border-radius:50%;
+    background:#A02373;
+    cursor:pointer;
+    border:2px solid #5E2CF5;
+}
+
+
+/* ================================= */
+/* THE SECTION OF THE RESULT */
+.result{
+    background:white;
+    width:90%;
+    margin:auto;
+    height:130px;
+    margin-top:10px;
+    border-radius:10px
+}
+
+.result span{
+    color:#A02373;
+    font-family:monospace;
+    font-size:18px;
+    font-weight:bold;
+    text-transform:uppercase;
+    margin-top:15px;
+    margin-left:10px;
+}
+
+.output{
+    background:#a0237357;
+    height:80px;
+    width:95%;
+    margin:auto;
+    border-radius:10px;
+    margin-top:10px;
+}
+
+.output h2{
+    color:#5E2CF5;
+    font-family:monospace;
+    font-weight:bold;
+    padding:20px;
+    font-size:35px;
+}
+
+/* ================ */
+.dev{
+    height:70px;
+    width:90%;
+    margin:auto;
+    border-radius:10px;
+    margin-top:0px;
+    background:white;
+}
+.dev h3{
+    text-align:center;
+    color:#A02373;
+    font-family:cursive;
+    padding:10px 5px 0 5px;
+}
+.dev p{
+    color:#A02373;
+    text-align:center;
+    font-family:amita;
+    font-weight:bold;
+    font-size:15px;
+    margin-top:5px;
+}
+
+}
+
+
+
+
+/* ==================================================== */
+/* ==================================================== */
+/* THE SECTION OF THE MEDIA QUERY */
+
+@media screen and (max-width:635px) and (min-width:586px){
+
+    *{
+    box-sizing:border-box;
+    margin:0;
+    padding:0;
+}
+
+body{
+    background:#5E2CF5;
+}
+
+section{
+    background:#5E2CF5;
+    height:670px;
+    width:100%;
+    position:absolute;
+    top:50%;
+    left:50%;
+    transform:translate(-50%,-50%);
+}
+
+/* ================================ */
+/* THE SECTION OF THE NAV*/
+nav{
+    background:white;
+    padding:20px;
+    font-size:20px;
+    text-align:center;
+    font-family:monospace;
+    color:#A02373;
+    width:90%;
+    margin:auto;
+    margin-top:20px;
+    height:70px;
+    border-radius:10px;
+    border-bottom:2px solid red;
+
+}
+nav h2{
+    font-size:22px;
+    text-align:center;
+    text-shadow:1px 1px red;
+}
+
+/* ================================== */
+/* THE SECTION OF THE ASIDE */
+aside{
+    background:white;
+    width:90%;
+    margin:auto;
+    height:90px;
+    margin-top:0px;
+    border-radius:10px;
+}
+
+/* ==================================== */
+/* THE SECTION OF THE DATE */
+.date{
+    float:left;
+    width:100%;
+    height:100px;
+    color:#5E2CF5;
+    text-align:center;
+    padding:21px;
+    font-size:21px;
+    font-weight:bolder;
+    font-family:amita;
+}
+
+
+
+/* =================================== */
+/* THE SECTION OF THE AMOUNT */
+.price{
+    background:white;
+    height:130px;
+    width:90%;
+    margin:auto;
+    margin-top:10px;
+    padding:10px;
+    border-radius:10px;
+}
+
+
+.price h3{
+    color:#A02373;
+    margin-bottom:20px;
+    font-family:monospace;
+    font-size:20px
+
+}
+
+
+.price input{
+    padding:12px;
+    border-radius:5px;
+    color:#A02373;
+    width:100%;
+    border:1px solid #A02373;
+}
+
+::-webkit-input-placeholder{
+    color:#A02373;
+    font-family:amita;
+}
+
+/* ================================= */
+/* THE SECTION OF THE MAIN */
+main{
+    background:white;
+    width:90%;
+    margin:auto;
+    height:120px;
+    margin-top:0px;
+    padding:10px;
+    border-radius:10px;
+
+}
+
+main span{
+    color:blue;
+    float:left;
+    font-family:cursive;
+    font-weight:bold;
+    font-size:16px;
+    margin-top:10px;
+}
+
+main small{
+    float:right;
+    color:blue;
+    font-family:cursive;
+    font-size:18px;
+    margin-right:10px;
+    font-weight:bold;
+}
+
+.range{
+    width:100%;
+    margin-top:30px;
+    -webkit-appearance: none;
+    outline:none;
+    background:#a0237326;
+    border-radius:25px;
+    height:10px;
+}
+
+.range::-webkit-slider-thumb{
+    -webkit-appearance: none;
+    width:20px;
+    height:20px;
+    border-radius:50%;
+    background:#A02373;
+    cursor:pointer;
+    border:2px solid #5E2CF5;
+}
+
+
+/* ================================= */
+/* THE SECTION OF THE RESULT */
+.result{
+    background:white;
+    width:90%;
+    margin:auto;
+    height:130px;
+    margin-top:10px;
+    border-radius:10px
+}
+
+.result span{
+    color:#A02373;
+    font-family:monospace;
+    font-size:18px;
+    font-weight:bold;
+    text-transform:uppercase;
+    margin-top:15px;
+    margin-left:10px;
+}
+
+.output{
+    background:#a0237357;
+    height:80px;
+    width:95%;
+    margin:auto;
+    border-radius:10px;
+    margin-top:10px;
+}
+
+.output h2{
+    color:#5E2CF5;
+    font-family:monospace;
+    font-weight:bold;
+    padding:20px;
+    font-size:35px;
+}
+
+/* ================ */
+.dev{
+    height:70px;
+    width:90%;
+    margin:auto;
+    border-radius:10px;
+    margin-top:0px;
+    background:white;
+}
+.dev h3{
+    text-align:center;
+    color:#A02373;
+    font-family:cursive;
+    padding:10px 5px 0 5px;
+}
+.dev p{
+    color:#A02373;
+    text-align:center;
+    font-family:amita;
+    font-weight:bold;
+    font-size:15px;
+    margin-top:5px;
+}
+
+}
+
+
+
+
+/* ==================================================== */
+/* ==================================================== */
+/* THE SECTION OF THE MEDIA QUERY */
+
+@media screen and (max-width:690px) and (min-width:636px){
+
+    *{
+    box-sizing:border-box;
+    margin:0;
+    padding:0;
+}
+
+body{
+    background:#5E2CF5;
+}
+
+section{
+    background:#5E2CF5;
+    height:670px;
+    width:100%;
+    position:absolute;
+    top:50%;
+    left:50%;
+    transform:translate(-50%,-50%);
+}
+
+/* ================================ */
+/* THE SECTION OF THE NAV*/
+nav{
+    background:white;
+    padding:20px;
+    font-size:20px;
+    text-align:center;
+    font-family:monospace;
+    color:#A02373;
+    width:90%;
+    margin:auto;
+    margin-top:20px;
+    height:70px;
+    border-radius:10px;
+    border-bottom:2px solid red;
+
+}
+nav h2{
+    font-size:22px;
+    text-align:center;
+    text-shadow:1px 1px red;
+}
+
+/* ================================== */
+/* THE SECTION OF THE ASIDE */
+aside{
+    background:white;
+    width:90%;
+    margin:auto;
+    height:90px;
+    margin-top:0px;
+    border-radius:10px;
+}
+
+/* ==================================== */
+/* THE SECTION OF THE DATE */
+.date{
+    float:left;
+    width:100%;
+    height:100px;
+    color:#5E2CF5;
+    text-align:center;
+    padding:21px;
+    font-size:21px;
+    font-weight:bolder;
+    font-family:amita;
+}
+
+
+
+/* =================================== */
+/* THE SECTION OF THE AMOUNT */
+.price{
+    background:white;
+    height:130px;
+    width:90%;
+    margin:auto;
+    margin-top:10px;
+    padding:10px;
+    border-radius:10px;
+}
+
+
+.price h3{
+    color:#A02373;
+    margin-bottom:20px;
+    font-family:monospace;
+    font-size:20px
+
+}
+
+
+.price input{
+    padding:12px;
+    border-radius:5px;
+    color:#A02373;
+    width:100%;
+    border:1px solid #A02373;
+}
+
+::-webkit-input-placeholder{
+    color:#A02373;
+    font-family:amita;
+}
+
+/* ================================= */
+/* THE SECTION OF THE MAIN */
+main{
+    background:white;
+    width:90%;
+    margin:auto;
+    height:120px;
+    margin-top:0px;
+    padding:10px;
+    border-radius:10px;
+
+}
+
+main span{
+    color:blue;
+    float:left;
+    font-family:cursive;
+    font-weight:bold;
+    font-size:16px;
+    margin-top:10px;
+}
+
+main small{
+    float:right;
+    color:blue;
+    font-family:cursive;
+    font-size:18px;
+    margin-right:10px;
+    font-weight:bold;
+}
+
+.range{
+    width:100%;
+    margin-top:30px;
+    -webkit-appearance: none;
+    outline:none;
+    background:#a0237326;
+    border-radius:25px;
+    height:10px;
+}
+
+.range::-webkit-slider-thumb{
+    -webkit-appearance: none;
+    width:20px;
+    height:20px;
+    border-radius:50%;
+    background:#A02373;
+    cursor:pointer;
+    border:2px solid #5E2CF5;
+}
+
+
+/* ================================= */
+/* THE SECTION OF THE RESULT */
+.result{
+    background:white;
+    width:90%;
+    margin:auto;
+    height:130px;
+    margin-top:10px;
+    border-radius:10px
+}
+
+.result span{
+    color:#A02373;
+    font-family:monospace;
+    font-size:18px;
+    font-weight:bold;
+    text-transform:uppercase;
+    margin-top:15px;
+    margin-left:10px;
+}
+
+.output{
+    background:#a0237357;
+    height:80px;
+    width:95%;
+    margin:auto;
+    border-radius:10px;
+    margin-top:10px;
+}
+
+.output h2{
+    color:#5E2CF5;
+    font-family:monospace;
+    font-weight:bold;
+    padding:20px;
+    font-size:35px;
+}
+
+/* ================ */
+.dev{
+    height:70px;
+    width:90%;
+    margin:auto;
+    border-radius:10px;
+    margin-top:0px;
+    background:white;
+}
+.dev h3{
+    text-align:center;
+    color:#A02373;
+    font-family:cursive;
+    padding:10px 5px 0 5px;
+}
+.dev p{
+    color:#A02373;
+    text-align:center;
+    font-family:amita;
+    font-weight:bold;
+    font-size:15px;
+    margin-top:5px;
+}
+
+}
+
+
+
+
+/* ==================================================== */
+/* ==================================================== */
+/* THE SECTION OF THE MEDIA QUERY */
+
+@media screen and (max-width:740px) and (min-width:691px){
+
+    *{
+    box-sizing:border-box;
+    margin:0;
+    padding:0;
+}
+
+body{
+    background:#5E2CF5;
+}
+
+section{
+    background:#5E2CF5;
+    height:670px;
+    width:100%;
+    position:absolute;
+    top:50%;
+    left:50%;
+    transform:translate(-50%,-50%);
+}
+
+/* ================================ */
+/* THE SECTION OF THE NAV*/
+nav{
+    background:white;
+    padding:20px;
+    font-size:20px;
+    text-align:center;
+    font-family:monospace;
+    color:#A02373;
+    width:90%;
+    margin:auto;
+    margin-top:20px;
+    height:70px;
+    border-radius:10px;
+    border-bottom:2px solid red;
+
+}
+nav h2{
+    font-size:22px;
+    text-align:center;
+    text-shadow:1px 1px red;
+}
+
+/* ================================== */
+/* THE SECTION OF THE ASIDE */
+aside{
+    background:white;
+    width:90%;
+    margin:auto;
+    height:90px;
+    margin-top:0px;
+    border-radius:10px;
+}
+
+/* ==================================== */
+/* THE SECTION OF THE DATE */
+.date{
+    float:left;
+    width:100%;
+    height:100px;
+    color:#5E2CF5;
+    text-align:center;
+    padding:21px;
+    font-size:21px;
+    font-weight:bolder;
+    font-family:amita;
+}
+
+
+
+/* =================================== */
+/* THE SECTION OF THE AMOUNT */
+.price{
+    background:white;
+    height:130px;
+    width:90%;
+    margin:auto;
+    margin-top:10px;
+    padding:10px;
+    border-radius:10px;
+}
+
+
+.price h3{
+    color:#A02373;
+    margin-bottom:20px;
+    font-family:monospace;
+    font-size:20px
+
+}
+
+
+.price input{
+    padding:12px;
+    border-radius:5px;
+    color:#A02373;
+    width:100%;
+    border:1px solid #A02373;
+}
+
+::-webkit-input-placeholder{
+    color:#A02373;
+    font-family:amita;
+}
+
+/* ================================= */
+/* THE SECTION OF THE MAIN */
+main{
+    background:white;
+    width:90%;
+    margin:auto;
+    height:120px;
+    margin-top:0px;
+    padding:10px;
+    border-radius:10px;
+
+}
+
+main span{
+    color:blue;
+    float:left;
+    font-family:cursive;
+    font-weight:bold;
+    font-size:16px;
+    margin-top:10px;
+}
+
+main small{
+    float:right;
+    color:blue;
+    font-family:cursive;
+    font-size:18px;
+    margin-right:10px;
+    font-weight:bold;
+}
+
+.range{
+    width:100%;
+    margin-top:30px;
+    -webkit-appearance: none;
+    outline:none;
+    background:#a0237326;
+    border-radius:25px;
+    height:10px;
+}
+
+.range::-webkit-slider-thumb{
+    -webkit-appearance: none;
+    width:20px;
+    height:20px;
+    border-radius:50%;
+    background:#A02373;
+    cursor:pointer;
+    border:2px solid #5E2CF5;
+}
+
+
+/* ================================= */
+/* THE SECTION OF THE RESULT */
+.result{
+    background:white;
+    width:90%;
+    margin:auto;
+    height:130px;
+    margin-top:10px;
+    border-radius:10px
+}
+
+.result span{
+    color:#A02373;
+    font-family:monospace;
+    font-size:18px;
+    font-weight:bold;
+    text-transform:uppercase;
+    margin-top:15px;
+    margin-left:10px;
+}
+
+.output{
+    background:#a0237357;
+    height:80px;
+    width:95%;
+    margin:auto;
+    border-radius:10px;
+    margin-top:10px;
+}
+
+.output h2{
+    color:#5E2CF5;
+    font-family:monospace;
+    font-weight:bold;
+    padding:20px;
+    font-size:35px;
+}
+
+/* ================ */
+.dev{
+    height:70px;
+    width:90%;
+    margin:auto;
+    border-radius:10px;
+    margin-top:0px;
+    background:white;
+}
+.dev h3{
+    text-align:center;
+    color:#A02373;
+    font-family:cursive;
+    padding:10px 5px 0 5px;
+}
+.dev p{
+    color:#A02373;
+    text-align:center;
+    font-family:amita;
+    font-weight:bold;
+    font-size:15px;
+    margin-top:5px;
+}
+
+}
+
+
+
+/* ==================================================== */
+/* ==================================================== */
+/* THE SECTION OF THE MEDIA QUERY */
+
+@media screen and (max-width:768px) and (min-width:741px){
+
+    *{
+    box-sizing:border-box;
+    margin:0;
+    padding:0;
+}
+
+body{
+    background:#5E2CF5;
+}
+
+section{
+    background:#5E2CF5;
+    height:670px;
+    width:100%;
+    position:absolute;
+    top:50%;
+    left:50%;
+    transform:translate(-50%,-50%);
+}
+
+/* ================================ */
+/* THE SECTION OF THE NAV*/
+nav{
+    background:white;
+    padding:20px;
+    font-size:20px;
+    text-align:center;
+    font-family:monospace;
+    color:#A02373;
+    width:90%;
+    margin:auto;
+    margin-top:20px;
+    height:70px;
+    border-radius:10px;
+    border-bottom:2px solid red;
+
+}
+nav h2{
+    font-size:22px;
+    text-align:center;
+    text-shadow:1px 1px red;
+}
+
+/* ================================== */
+/* THE SECTION OF THE ASIDE */
+aside{
+    background:white;
+    width:90%;
+    margin:auto;
+    height:90px;
+    margin-top:0px;
+    border-radius:10px;
+}
+
+/* ==================================== */
+/* THE SECTION OF THE DATE */
+.date{
+    float:left;
+    width:100%;
+    height:100px;
+    color:#5E2CF5;
+    text-align:center;
+    padding:21px;
+    font-size:21px;
+    font-weight:bolder;
+    font-family:amita;
+}
+
+
+
+/* =================================== */
+/* THE SECTION OF THE AMOUNT */
+.price{
+    background:white;
+    height:130px;
+    width:90%;
+    margin:auto;
+    margin-top:10px;
+    padding:10px;
+    border-radius:10px;
+}
+
+
+.price h3{
+    color:#A02373;
+    margin-bottom:20px;
+    font-family:monospace;
+    font-size:20px
+
+}
+
+
+.price input{
+    padding:12px;
+    border-radius:5px;
+    color:#A02373;
+    width:100%;
+    border:1px solid #A02373;
+}
+
+::-webkit-input-placeholder{
+    color:#A02373;
+    font-family:amita;
+}
+
+/* ================================= */
+/* THE SECTION OF THE MAIN */
+main{
+    background:white;
+    width:90%;
+    margin:auto;
+    height:120px;
+    margin-top:0px;
+    padding:10px;
+    border-radius:10px;
+
+}
+
+main span{
+    color:blue;
+    float:left;
+    font-family:cursive;
+    font-weight:bold;
+    font-size:16px;
+    margin-top:10px;
+}
+
+main small{
+    float:right;
+    color:blue;
+    font-family:cursive;
+    font-size:18px;
+    margin-right:10px;
+    font-weight:bold;
+}
+
+.range{
+    width:100%;
+    margin-top:30px;
+    -webkit-appearance: none;
+    outline:none;
+    background:#a0237326;
+    border-radius:25px;
+    height:10px;
+}
+
+.range::-webkit-slider-thumb{
+    -webkit-appearance: none;
+    width:20px;
+    height:20px;
+    border-radius:50%;
+    background:#A02373;
+    cursor:pointer;
+    border:2px solid #5E2CF5;
+}
+
+
+/* ================================= */
+/* THE SECTION OF THE RESULT */
+.result{
+    background:white;
+    width:90%;
+    margin:auto;
+    height:130px;
+    margin-top:10px;
+    border-radius:10px
+}
+
+.result span{
+    color:#A02373;
+    font-family:monospace;
+    font-size:18px;
+    font-weight:bold;
+    text-transform:uppercase;
+    margin-top:15px;
+    margin-left:10px;
+}
+
+.output{
+    background:#a0237357;
+    height:80px;
+    width:95%;
+    margin:auto;
+    border-radius:10px;
+    margin-top:10px;
+}
+
+.output h2{
+    color:#5E2CF5;
+    font-family:monospace;
+    font-weight:bold;
+    padding:20px;
+    font-size:35px;
+}
+
+/* ================ */
+.dev{
+    height:70px;
+    width:90%;
+    margin:auto;
+    border-radius:10px;
+    margin-top:0px;
+    background:white;
+}
+.dev h3{
+    text-align:center;
+    color:#A02373;
+    font-family:cursive;
+    padding:10px 5px 0 5px;
+}
+.dev p{
+    color:#A02373;
+    text-align:center;
+    font-family:amita;
+    font-weight:bold;
+    font-size:15px;
+    margin-top:5px;
+}
+
+}
+
+
+
+
+/* ==================================================== */
+/* ==================================================== */
+/* THE SECTION OF THE MEDIA QUERY */
+
+@media screen and (max-width:823px) and (min-width:769px){
+
+    *{
+    box-sizing:border-box;
+    margin:0;
+    padding:0;
+}
+
+body{
+    background:#5E2CF5;
+}
+
+section{
+    background:#5E2CF5;
+    height:670px;
+    width:100%;
+    position:absolute;
+    top:50%;
+    left:50%;
+    transform:translate(-50%,-50%);
+}
+
+/* ================================ */
+/* THE SECTION OF THE NAV*/
+nav{
+    background:white;
+    padding:20px;
+    font-size:20px;
+    text-align:center;
+    font-family:monospace;
+    color:#A02373;
+    width:90%;
+    margin:auto;
+    margin-top:20px;
+    height:70px;
+    border-radius:10px;
+    border-bottom:2px solid red;
+
+}
+nav h2{
+    font-size:22px;
+    text-align:center;
+    text-shadow:1px 1px red;
+}
+
+/* ================================== */
+/* THE SECTION OF THE ASIDE */
+aside{
+    background:white;
+    width:90%;
+    margin:auto;
+    height:90px;
+    margin-top:0px;
+    border-radius:10px;
+}
+
+/* ==================================== */
+/* THE SECTION OF THE DATE */
+.date{
+    float:left;
+    width:100%;
+    height:100px;
+    color:#5E2CF5;
+    text-align:center;
+    padding:21px;
+    font-size:21px;
+    font-weight:bolder;
+    font-family:amita;
+}
+
+
+
+/* =================================== */
+/* THE SECTION OF THE AMOUNT */
+.price{
+    background:white;
+    height:130px;
+    width:90%;
+    margin:auto;
+    margin-top:10px;
+    padding:10px;
+    border-radius:10px;
+}
+
+
+.price h3{
+    color:#A02373;
+    margin-bottom:20px;
+    font-family:monospace;
+    font-size:20px
+
+}
+
+
+.price input{
+    padding:12px;
+    border-radius:5px;
+    color:#A02373;
+    width:100%;
+    border:1px solid #A02373;
+}
+
+::-webkit-input-placeholder{
+    color:#A02373;
+    font-family:amita;
+}
+
+/* ================================= */
+/* THE SECTION OF THE MAIN */
+main{
+    background:white;
+    width:90%;
+    margin:auto;
+    height:120px;
+    margin-top:0px;
+    padding:10px;
+    border-radius:10px;
+
+}
+
+main span{
+    color:blue;
+    float:left;
+    font-family:cursive;
+    font-weight:bold;
+    font-size:16px;
+    margin-top:10px;
+}
+
+main small{
+    float:right;
+    color:blue;
+    font-family:cursive;
+    font-size:18px;
+    margin-right:10px;
+    font-weight:bold;
+}
+
+.range{
+    width:100%;
+    margin-top:30px;
+    -webkit-appearance: none;
+    outline:none;
+    background:#a0237326;
+    border-radius:25px;
+    height:10px;
+}
+
+.range::-webkit-slider-thumb{
+    -webkit-appearance: none;
+    width:20px;
+    height:20px;
+    border-radius:50%;
+    background:#A02373;
+    cursor:pointer;
+    border:2px solid #5E2CF5;
+}
+
+
+/* ================================= */
+/* THE SECTION OF THE RESULT */
+.result{
+    background:white;
+    width:90%;
+    margin:auto;
+    height:130px;
+    margin-top:10px;
+    border-radius:10px
+}
+
+.result span{
+    color:#A02373;
+    font-family:monospace;
+    font-size:18px;
+    font-weight:bold;
+    text-transform:uppercase;
+    margin-top:15px;
+    margin-left:10px;
+}
+
+.output{
+    background:#a0237357;
+    height:80px;
+    width:95%;
+    margin:auto;
+    border-radius:10px;
+    margin-top:10px;
+}
+
+.output h2{
+    color:#5E2CF5;
+    font-family:monospace;
+    font-weight:bold;
+    padding:20px;
+    font-size:35px;
+}
+
+/* ================ */
+.dev{
+    height:70px;
+    width:90%;
+    margin:auto;
+    border-radius:10px;
+    margin-top:0px;
+    background:white;
+}
+.dev h3{
+    text-align:center;
+    color:#A02373;
+    font-family:cursive;
+    padding:10px 5px 0 5px;
+}
+.dev p{
+    color:#A02373;
+    text-align:center;
+    font-family:amita;
+    font-weight:bold;
+    font-size:15px;
+    margin-top:5px;
+}
+
+}

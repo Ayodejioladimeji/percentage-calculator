@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Percentage Calculator</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="animate.css">
+    <link href='https://fonts.googleapis.com/css?family=Akronim' rel='stylesheet'>
+    <link href='https://fonts.googleapis.com/css?family=Allura' rel='stylesheet'>
+    <link href='https://fonts.googleapis.com/css?family=Amita' rel='stylesheet'>
+
+</head>
+<body>
+    <section id="container">
+        <nav>
+            <h2>PERCENTAGE CALCULATOR</h2>
+        </nav>
+
+        <aside>
+            <div class="date" id="date"></div>
+        </aside>
+
+
+        <!-- THE SECTION OF THE PRICE -->
+        <div class="price">
+            <h3>AMOUNT</h3>
+            <input type="number" id="input" placeholder="Enter Amount">
+        </div>
+
+
+        <!-- THE SECTION OF THE PERCENTAGE -->
+        <main>
+            <span>Choose Percentage</span>
+            <small id="percent"></small>
+            <input type="range" value="0" id="range" class="range">
+        </main>
+
+
+        <!-- THE SECTION OF THE RESULT -->
+        <div class="result">
+            <span>Result</span>
+            <div class="output">
+                <h2 id="output">000000</h2>
+            </div>
+        </div>
+
+        <div class="dev">
+            <h3 class="animated bounce infinite slow">DEV-CAREER 2.0</h3>
+            <p>Project By : LayoBright</p>
+        </div>
+    </section>
+
+    <script src="index.js"></script>
+</body>
+</html>

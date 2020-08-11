@@ -15,9 +15,10 @@ function update(){
     const percent = document.getElementById("range").value;
 
     let percentage = (amount/100)*percent;
+    value = percentage.toFixed(2);
 
 
-    document.getElementById("output").innerHTML = percentage;
+    document.getElementById("output").innerHTML = value;
     document.getElementById("percent").innerHTML = percent + "%";
 
 }
